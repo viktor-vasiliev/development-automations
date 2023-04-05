@@ -1,0 +1,33 @@
+{
+  "projects": [
+    {
+      "name": "CALLCENTER",
+      "frontend": {
+        "project-name": "sxope-callcenter-frontend",
+        "repository": "https://github.com/inventcorp/sxope-callcenter-frontend",
+        "local": "/home/novapulsar/PhpstormProjects/sxope-callcenter-frontend"
+      },
+      "backend": {
+        "project-name": "sxope-callcenter-v2",
+        "repository": "https://github.com/inventcorp/sxope-callcenter-v2",
+        "local": "/home/novapulsar/PhpstormProjects/sxope-callcenter-v2",
+        "update-frontend-message": "feat(callcenter-frontend): update package to {tag} ({tickets})"
+      },
+      "jira": {
+        "project-name": "CAL",
+        "webhooks": {
+          "on-stage": null,
+          "code-was-reviewed": null,
+          "commit-link": null
+        }
+      }
+    }
+  ],
+  "git-settings": {
+    "develop-branch": "develop",
+    "release-branch": "master"
+  },
+  "user": {
+    "jiraAssigneeId": "5ec7ac320221530c2ec47b47"
+  }
+}

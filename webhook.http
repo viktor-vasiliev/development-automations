@@ -1,0 +1,7 @@
+### Send POST request with json body
+https://automation.atlassian.com/pro/hooks/f5f11cb39c540b89c8398262eb6bfaf0a01fb8ae
+Content-Type: application/json
+
+{
+  "issues": [ "PER-2407", "PER-2414", "PER-2418"]
+}
